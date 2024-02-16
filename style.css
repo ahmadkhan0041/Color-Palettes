@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: DodgerBlue;
+
+}
+/* ----------- index page classes ---------------- */
+.AussieClass{
+  background-color: #f9ca24 !important;
+}
+.BritishPaletteClass{
+  background-color: #eb4d4b !important;
+}
+.CanadianClass{
+  background-color: #6ab04c !important;
+}
+.ChinesePaletteClass{
+  background-color: #be2edd !important;
+}
+.DutchPaletteClass{
+  background-color: #1B1464 !important;
+
+}
+.AussieClass{
+  background-color: #f9ca24 !important;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    background-color: DodgerBlue;
+    padding-top: 20px;
+}
+.container > div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 122px;
+    font-size: 30px;
+    justify-content:space-around;
+
+
+}
+
+/* ============== Aussie Palettle Page styling starting from here ================ */
+.containerAussie {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .box {
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 40px;
+    text-align: center;
+  }
+  span{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .box:nth-child(1) { background-color: #3498db; }
+  .box:nth-child(2) { background-color: #e74c3c; }
+  .box:nth-child(3) { background-color: #2ecc71; }
+  .box:nth-child(4) { background-color: #f39c12; }
+  .box:nth-child(5) { background-color: #9b59b6; }
+  .box:nth-child(6) { background-color: #1abc9c; }
+  .box:nth-child(7) { background-color: #c0392b; }
+  .box:nth-child(8) { background-color: #27ae60; }
+  .box:nth-child(9) { background-color: #d35400; }
+  .box:nth-child(10) { background-color: #8e44ad; }
+  .box:nth-child(11) { background-color: #2980b9; }
+  .box:nth-child(12) { background-color: #c0392b; }
+  .box:nth-child(13) { background-color: #27ae60; }
+  .box:nth-child(14) { background-color: #d35400; }
+  .box:nth-child(15) { background-color: #8e44ad; }
+  .box:nth-child(16) { background-color: #2980b9; }
+  .box:nth-child(17) { background-color: #16a085; }
+  .box:nth-child(18) { background-color: #f39c12; }
+  .box:nth-child(19) { background-color: #34495e; }
+  .box:nth-child(20) { background-color: #e67e22; }
